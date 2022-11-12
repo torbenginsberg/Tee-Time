@@ -12,11 +12,11 @@ module.exports = function validateEventInput(data){
         errors.eventSize = 'Event size is a required field'
     } else {
             if (data.eventSize < 2) {
-                errors.eventSize = 'Event size must be at least 2'
+                errors.eventSize = 'Event size must be between 2-4 people'
             }
         
             if (data.eventSize > 4){
-                errors.eventSize = 'Event size must be at most 4'
+                errors.eventSize = 'Event size must be between 2-4 people'
             }
     }
 

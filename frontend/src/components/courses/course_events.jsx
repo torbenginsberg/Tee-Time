@@ -21,9 +21,6 @@ class CourseEvents extends React.Component {
                             <EventItemContainer event={event} courses={this.props.courses} />
                             </div>
                     } 
-                    // else {
-                    //     this.props.deleteEvent(event._id);
-                    // }
                 })}
             </div>
         )

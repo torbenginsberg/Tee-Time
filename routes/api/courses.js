@@ -13,9 +13,6 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req,res) => {
-
-    console.log("COURSE REQUEST")
-    console.log(req.body)
     const newCourse = new Course({
         name: req.body.name,
         location: {

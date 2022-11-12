@@ -1,5 +1,7 @@
+//in Mongoose, models are defined by passing a schema instance to mongoose.model, which we do in our export at the bottom of this file
+
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema; // accessing the Schema constructor from the mongoose singleton
 
 const UserSchema = new Schema({
     firstName: {
@@ -29,7 +31,7 @@ const UserSchema = new Schema({
         type: String
       }
     },
-    groups: {
+    groups: {         // for groups and events, we could define document within document by setting the value of our array with the respective schema constructor inside
       ownedGroups: {
         type: Array
       },
@@ -59,7 +61,7 @@ const UserSchema = new Schema({
         type: Array
       }
     }
-    // might want to add image down the line, will depend on AWS configuration
+    // might want to add image down the line
   }, {
     timestamps: true
 })

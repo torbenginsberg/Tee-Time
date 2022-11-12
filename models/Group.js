@@ -29,7 +29,6 @@ const GroupSchema = new Schema({
             type: String
         }
     }
-    // Image key for when we set up AWS 
 })
 
 module.exports = Group = mongoose.model('Group', GroupSchema)
