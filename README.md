@@ -9,19 +9,17 @@ One of the biggest barriers to entry for people looking to pick up the game of g
 
 Tee-Time is a platform for finding and building local groups to get together for a round. This full stack web application will also let users easily keep track of their upcoming tee times and groups they are a part of.
 
-Our application will consist of:
+Our application consists of:
 * A user dashboard, with a list upcoming events and users/courses they have played
 * A feed page to display open events and public groups for users to join
 * Google Maps API to see events near you on the map
 
 ## Functionality & MVP 
 * User authorization: signup and login 
-* Users will be able to view nearby courses 
-* Users will be able to create and join groups 
-* Users will be able to create and join events 
-* Users will be able to connect with other users
-* Users will be able to follow other users 
-* Production README 
+* Users can view nearby courses 
+* Users can create and join groups 
+* Users can create and join events 
+* Users can follow other users 
 
 ### Overview
 
