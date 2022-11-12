@@ -2,7 +2,7 @@
 
 ![Logo](logo.png)
 
-Live link: https://tee-time-application.herokuapp.com/#/
+Live link: https://tee-time-application.herokuapp.com/
 
 ## Background and Overview 
 One of the biggest barriers to entry for people looking to pick up the game of golf is finding people to play with.
